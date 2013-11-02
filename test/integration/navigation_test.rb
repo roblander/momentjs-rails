@@ -8,12 +8,7 @@ class NavigationTest < ActionDispatch::IntegrationTest
 
   test 'momentjs response is for the expected version' do
     get 'assets/moment.js'
-    assert_match(/VERSION = "2\.3\.1"/, @response.body)
-  end
-
-  test 'can access momentjs translation' do
-    get 'assets/moment/fr.js'
-    assert_response :success
+    assert_match(/VERSION = "2\.4\.0"/, @response.body)
   end
 end
 
