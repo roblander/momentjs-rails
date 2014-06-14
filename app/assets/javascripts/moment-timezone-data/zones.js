@@ -1458,6 +1458,13 @@ moment.tz.add({
             "0 - zzz 1957_11_16",
             "6 - VOST"
         ],
+        "Europe/Oslo": [
+            "0:43 - LMT 1895_0_1 0:43",
+            "1 Norway CE%sT 1940_7_10_23 1",
+            "1 C-Eur CE%sT 1945_3_2_2 1",
+            "1 Norway CE%sT 1980 1",
+            "1 EU CE%sT"
+        ],
         "Asia/Aden": [
             "2:59:54 - LMT 1950 2:59:54",
             "3 - AST"
@@ -2204,6 +2211,24 @@ moment.tz.add({
         "EST5EDT": [
             "-5 US E%sT"
         ],
+        "HST": [
+            "-10 - HST"
+        ],
+        "MET": [
+            "1 C-Eur ME%sT"
+        ],
+        "MST": [
+            "-7 - MST"
+        ],
+        "MST7MDT": [
+            "-7 US M%sT"
+        ],
+        "PST8PDT": [
+            "-8 US P%sT"
+        ],
+        "WET": [
+            "0 EU WE%sT"
+        ],
         "Etc/GMT": [
             "0 - GMT"
         ],
@@ -2329,6 +2354,13 @@ moment.tz.add({
             "1 Germany CE%sT 1980 1",
             "1 EU CE%sT"
         ],
+        "Europe/Prague": [
+            "0:57:44 - LMT 1850 0:57:44",
+            "0:57:44 - PMT 1891_9 0:57:44",
+            "1 C-Eur CE%sT 1944_8_17_2 1",
+            "1 Czech CE%sT 1979 1",
+            "1 EU CE%sT"
+        ],
         "Europe/Brussels": [
             "0:17:30 - LMT 1880 0:17:30",
             "0:17:30 - BMT 1892_4_1_12 0:17:30",
@@ -2355,6 +2387,12 @@ moment.tz.add({
             "1 Hungary CE%sT 1941_3_6_2 1",
             "1 C-Eur CE%sT 1945 1",
             "1 Hungary CE%sT 1980_8_28_2 1",
+            "1 EU CE%sT"
+        ],
+        "Europe/Zurich": [
+            "0:34:8 - LMT 1848_8_12 0:34:8",
+            "0:29:44 - BMT 1894_5 0:29:44",
+            "1 Swiss CE%sT 1981 1",
             "1 EU CE%sT"
         ],
         "Europe/Chisinau": [
@@ -2399,6 +2437,13 @@ moment.tz.add({
             "0 GB-Eire %s 1957_3_14_2",
             "1 - CET 1982 1",
             "1 EU CE%sT"
+        ],
+        "Europe/London": [
+            "-0:1:15 - LMT 1847_11_1_0 -0:1:15",
+            "0 GB-Eire %s 1968_9_27 1",
+            "1 - BST 1971_9_31_2",
+            "0 GB-Eire %s 1996",
+            "0 EU GMT/BST"
         ],
         "Europe/Helsinki": [
             "1:39:52 - LMT 1878_4_31 1:39:52",
@@ -2445,13 +2490,6 @@ moment.tz.add({
             "0 W-Eur WE%sT 1992_8_27_1",
             "1 EU CE%sT 1996_2_31_1",
             "0 EU WE%sT"
-        ],
-        "Europe/London": [
-            "-0:1:15 - LMT 1847_11_1_0 -0:1:15",
-            "0 GB-Eire %s 1968_9_27 1",
-            "1 - BST 1971_9_31_2",
-            "0 GB-Eire %s 1996",
-            "0 EU GMT/BST"
         ],
         "Europe/Luxembourg": [
             "0:24:36 - LMT 1904_5 0:24:36",
@@ -2508,13 +2546,6 @@ moment.tz.add({
             "3 Russia MSK/MSD 2011_2_27_2 3",
             "4 - MSK"
         ],
-        "Europe/Oslo": [
-            "0:43 - LMT 1895_0_1 0:43",
-            "1 Norway CE%sT 1940_7_10_23 1",
-            "1 C-Eur CE%sT 1945_3_2_2 1",
-            "1 Norway CE%sT 1980 1",
-            "1 EU CE%sT"
-        ],
         "Europe/Paris": [
             "0:9:21 - LMT 1891_2_15_0_1 0:9:21",
             "0:9:21 - PMT 1911_2_11_0_1 0:9:21",
@@ -2522,13 +2553,6 @@ moment.tz.add({
             "1 C-Eur CE%sT 1944_7_25 2",
             "0 France WE%sT 1945_8_16_3 2",
             "1 France CE%sT 1977 1",
-            "1 EU CE%sT"
-        ],
-        "Europe/Prague": [
-            "0:57:44 - LMT 1850 0:57:44",
-            "0:57:44 - PMT 1891_9 0:57:44",
-            "1 C-Eur CE%sT 1944_8_17_2 1",
-            "1 Czech CE%sT 1979 1",
             "1 EU CE%sT"
         ],
         "Europe/Riga": [
@@ -2702,15 +2726,6 @@ moment.tz.add({
             "2 E-Eur EE%sT 1995 2",
             "2 EU EE%sT"
         ],
-        "Europe/Zurich": [
-            "0:34:8 - LMT 1848_8_12 0:34:8",
-            "0:29:44 - BMT 1894_5 0:29:44",
-            "1 Swiss CE%sT 1981 1",
-            "1 EU CE%sT"
-        ],
-        "HST": [
-            "-10 - HST"
-        ],
         "Indian/Antananarivo": [
             "3:10:4 - LMT 1911_6 3:10:4",
             "3 - EAT 1954_1_27_23 3",
@@ -2758,18 +2773,6 @@ moment.tz.add({
         "Indian/Reunion": [
             "3:41:52 - LMT 1911_5 3:41:52",
             "4 - RET"
-        ],
-        "MET": [
-            "1 C-Eur ME%sT"
-        ],
-        "MST": [
-            "-7 - MST"
-        ],
-        "MST7MDT": [
-            "-7 US M%sT"
-        ],
-        "PST8PDT": [
-            "-8 US P%sT"
         ],
         "Pacific/Apia": [
             "12:33:4 - LMT 1879_6_5 12:33:4",
@@ -2971,9 +2974,6 @@ moment.tz.add({
         "Pacific/Wallis": [
             "12:15:20 - LMT 1901 12:15:20",
             "12 - WFT"
-        ],
-        "WET": [
-            "0 EU WE%sT"
         ]
     }
 });
