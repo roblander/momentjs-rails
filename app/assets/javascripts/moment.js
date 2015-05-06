@@ -4,14 +4,6 @@
 //! license : MIT
 //! momentjs.com
 
-Math.sign = Math.sign || function(x) {
-  x = +x; // convert to a number
-  if (x === 0 || isNaN(x)) {
-    return x;
-  }
-  return x > 0 ? 1 : -1;
-}
-
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
     typeof define === 'function' && define.amd ? define(factory) :
@@ -1860,7 +1852,8 @@ Math.sign = Math.sign || function(x) {
     }
 
     function absFloor (number) {
-        return Math.sign(number) * Math.floor( Math.abs(number) );
+        var result = Math.floor( Math.abs(number) );
+        return number > 0 ? result : -result;
     }
 
     function diff (input, units, asFloat) {
